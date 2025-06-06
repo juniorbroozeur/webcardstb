@@ -1,6 +1,4 @@
-############################
-# ????? Visual Studio / .NET
-############################
+# Visual Studio
 .vs/
 *.user
 *.suo
@@ -10,54 +8,10 @@
 *.log
 *.pdb
 
-# Dossiers de build
+# Build Results
 bin/
 obj/
 
-# Fichiers de configuration sensibles
+# Configuration
 appsettings.Development.json
 appsettings.Production.json
-secrets.json
-
-# Fichiers de test temporaires
-TestResults/
-*.ncrunch*
-*.localhistory/
-*.orig
-
-############################
-# ?? Angular (si frontend séparé)
-############################
-dist/
-node_modules/
-.angular/
-.angular-cache/
-coverage/
-package-lock.json
-npm-debug.log
-
-############################
-# ?? Node.js général (si backend Node utilisé)
-############################
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-############################
-# ?? Système
-############################
-Thumbs.db
-.DS_Store
-*.bak
-*.tmp
-*.swp
-*.log
-
-############################
-# ?? Autres à ignorer
-############################
-*.sqlite
-*.sqlite3
-*.db
